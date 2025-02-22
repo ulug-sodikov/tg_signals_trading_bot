@@ -18,7 +18,7 @@ BUY LIMIT FROM : 1.02200✨
 SL : 1.01750 (45Pips)🤑
 TP : 1.04000 (4RR)💰"
 
-If the message is not related to trading order and contains something like "All pending and limit orders are now invalid. Please take a moment to delete them." generate a trading order with action field equal to "DELETE_ALL".
+If the message is not related to trading order and contains something like "All pending and limit orders are now invalid." generate a trading order with action field equal to "DELETE_ALL".
 
 This is the message that I am giving: "{message}"
 """
