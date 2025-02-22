@@ -41,5 +41,6 @@ if TEST_CHANNEL_ID is not None:
         await event.respond("Watcher is running!")
 
 
-client.start()
-client.run_until_disconnected()
+if __name__ == "__main__":
+    client.start()
+    client.run_until_disconnected()
